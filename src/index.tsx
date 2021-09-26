@@ -21,7 +21,7 @@ createServer({
           category: 'dev',
           amount: 6000,
           createdAt: new Date('2021-02-12 09:00:00'),
-        }
+        },
       ]
     })
   },
@@ -40,7 +40,7 @@ createServer({
 
       const data = JSON.parse(request.requestBody)
 
-      return schema.create('trasaction', data)
+      return schema.create('transaction', data)
 
     })
 
