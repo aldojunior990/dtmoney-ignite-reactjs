@@ -3,10 +3,6 @@ import styled from "styled-components";
 export const Container = styled.header`
     background: var(--blue);
 
-
-
-
-
 `
 export const Content = styled.div`
     max-width: 1120px;
@@ -17,6 +13,9 @@ export const Content = styled.div`
     align-items: center;
     justify-content: space-between;
 
+    img{ 
+        width: 11rem;
+    }
     button{
         font-size: 1rem;
         color: #FFF;
@@ -24,7 +23,7 @@ export const Content = styled.div`
         border: 0;
         padding: 0 2rem;
         border-radius: 0%.25rem;
-        height: 3rem;
+        height: 2.5rem;
         transition: filter 0.2s;
         &:hover{
             filter: brightness(0.9);
