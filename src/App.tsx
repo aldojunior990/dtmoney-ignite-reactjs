@@ -1,44 +1,39 @@
+import { Dashboard } from "./components/Dashboard";
+import { Header } from "./components/Header";
+import { GlobalStyle } from "./styles/global";
+import Modal from "react-modal";
+import { useState } from "react";
+import { NewTransactionModal } from "./components/NewTransactionModal/index";
+import { TransactionsProvider } from "./hooks/useTransactions";
+import { ButtonDarkMode } from "./components/ButtonDarkMode";
 
-import { Dashboard } from './components/Dashboard';
-import { Header } from './components/Header';
-import { GlobalStyle } from './styles/global';
-import Modal from 'react-modal'
-import { useState } from 'react';
-import { NewTransactionModal } from './components/NewTransactionModal/index';
-import { TransactionsProvider } from './hooks/useTransactions';
-
-
-
-Modal.setAppElement('#root')
+Modal.setAppElement("#root");
 
 export function App() {
- 
- 
- 
-  const [isNewTransactionModalOpen, setIsNewTransactionModalOpen] = useState(false)
+  const [darkMode, setDarkMode] = useState(false);
 
-  function HandleOpenNewTransactionModal(){
-      setIsNewTransactionModalOpen(true)
+  const [isNewTransactionModalOpen, setIsNewTransactionModalOpen] =
+    useState(false);
+
+  function HandleOpenNewTransactionModal() {
+    setIsNewTransactionModalOpen(true);
   }
-  function HandleCloseNewTransactionModal(){
-      setIsNewTransactionModalOpen(false)
+  function HandleCloseNewTransactionModal() {
+    setIsNewTransactionModalOpen(false);
   }
 
-  
   return (
-
     <TransactionsProvider>
+      <Header />
+      <ButtonDarkMode setDarkMode={setDarkMode} darkMode={darkMode} />
+      <Dashboard onOpenNewTransactionModal={HandleOpenNewTransactionModal} />
 
-      <Header onOpenNewTransactionModal={HandleOpenNewTransactionModal}/>
-      <Dashboard />
-      <NewTransactionModal 
-        isOpen={isNewTransactionModalOpen} 
-        onRequestClose={HandleCloseNewTransactionModal} 
+      <NewTransactionModal
+        isOpen={isNewTransactionModalOpen}
+        onRequestClose={HandleCloseNewTransactionModal}
       />
-      <GlobalStyle />
-      
+
+      <GlobalStyle darkMode={darkMode} />
     </TransactionsProvider>
-      
   );
 }
-

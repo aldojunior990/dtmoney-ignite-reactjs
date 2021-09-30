@@ -25,6 +25,9 @@ interface TransactionsContextData{
     createTransaction: (transaction: TransactionInput) => Promise<void>
 }
 
+interface LocalTransaction {
+
+}
 export const TransactionsContext = createContext<TransactionsContextData>({} as TransactionsContextData)
 
 
@@ -46,20 +49,29 @@ export function TransactionsProvider({children}: TransactionsProviderProps){
 
        const { transaction } = response.data;
 
-       setTransactions([...transactions, transaction,])
+       setTransactions([...transactions, transaction ])
 
-    }
+       function localTransactions(localTransac: LocalTransaction){
+
     
-    return(
+
+       }
+   
+          
+      }
+        return (
+
         <TransactionsContext.Provider value = {{ transactions, createTransaction }}>
             {children}
         </TransactionsContext.Provider>
     )
-}
+} 
+
 
 
 export function useTransactions(){
-    const context = useContext(TransactionsContext)
 
+    const context = useContext(TransactionsContext)
     return context
+
 }
