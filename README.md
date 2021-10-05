@@ -3,8 +3,12 @@
 </h1>
 
 <h1 align="center">
+<<<<<<< HEAD
    <img src=".github/prototipo1.png">
    <img src=".github/prototipo2.png">
+=======
+  
+>>>>>>> 08338cff77865dcf32606db40d46a3655ff55212
 </h1>
 
 ## Technologies
