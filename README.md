@@ -3,18 +3,18 @@
 </h1>
 
 <h1 align="center">
-  <strong>DtMoney</strong>
+   <img src=".github/prototipo1.png">
+   <img src=".github/prototipo2.png">
 </h1>
 
-
-## Technologies 
+## Technologies
 
 This project was developed with the following technologies:
 
 - [React](https://reactjs.org)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Styled-components](https://styled-components.com/)
-<br>
+  <br>
 
 ## How to execute
 
@@ -35,5 +35,5 @@ The app is also available on the web in production https://dtmoney-ignite-reactj
 <br>
 
 ## About the project
-This is a front-end application developed during the "Ignite" course provided by Rocketseat in react that uses concepts like Styled Components, Mirage Js, Context API, hooks, axios and much more.
 
+This is a front-end application developed during the "Ignite" course provided by Rocketseat in react that uses concepts like Styled Components, Mirage Js, Context API, hooks, axios and much more.
