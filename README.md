@@ -24,7 +24,7 @@ To start it, follow the steps below:
 # Install dependencies
 $ yarn
 
-# Iniciar o projeto (start the project)
+# start the project
 $ yarn start
 ```
 
