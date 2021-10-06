@@ -1,15 +1,16 @@
 <h1 align="center">
   <strong>DtMoney</strong>
 </h1>
-
-## About the project
-
-Este é um aplicativo front-end desenvolvido durante o curso "Ignite" fornecido pela Rocketseat em react que usa conceitos como Styled Components, Mirage Js, Context API, hooks, axios e muito mais. O app tem um sistema de cadastro de entradas e saidas consegue visualizar a listagem desses cadastros.
-
-
-Este é um aplicativo front-end desenvolvido durante o curso "Ignite" fornecido pela Rocketseat em react que usa conceitos como Styled Components, Mirage Js, Context API, hooks, axios e muito mais. O app tem um sistema de cadastro de entradas e saidas consegue visualizar a listagem desses cadastros.
-
 <br>
+
+## Sobre o projeto - About the project
+
+Este é um aplicativo front-end desenvolvido durante o curso "Ignite" fornecido pela Rocketseat em react que usa conceitos como Styled Components, Mirage Js, Context API, hooks, axios e muito mais. O app tem um sistema de cadastro de entradas e saidas consegue visualizar a listagem desses cadastros.
+
+
+Este é um aplicativo front-end desenvolvido durante o curso "Ignite" fornecido pela Rocketseat em react que usa conceitos como Styled Components, Mirage Js, Context API, hooks, axios e muito mais. O app tem um sistema de cadastro de entradas e saidas consegue visualizar a listagem desses cadastros.
+
+
 
 <h1 align="center" display="flex">
    <img src=".github/prototipo1.png">
@@ -28,7 +29,7 @@ This project was developed with the following technologies:
 - [MirajeJs](https://miragejs.com/)
   <br>
 
-## How to execute
+## Como executar - How to execute
 Para iniciá-lo, siga as etapas abaixo:
 <br>
 To start it, follow the steps below:
