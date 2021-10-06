@@ -17,7 +17,7 @@ This is a front-end application developed during the "Ignite" course provided by
    <img src=".github/prototipo2.png">
 </h1>
 
-## Tecnologias - Technologies 
+## :computer: Tecnologias - Technologies 
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
 <br>
@@ -27,6 +27,7 @@ This project was developed with the following technologies:
 - [TypeScript](https://www.typescriptlang.org/)
 - [Styled-components](https://styled-components.com/)
 - [MirajeJs](https://miragejs.com/)
+- [Axios](https://github.com/axios/axios)
   <br>
 
 ## Como executar - How to execute
