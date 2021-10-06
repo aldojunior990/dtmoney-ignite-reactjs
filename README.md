@@ -8,7 +8,7 @@
 Este é um aplicativo front-end desenvolvido durante o curso "Ignite" fornecido pela Rocketseat em react que usa conceitos como Styled Components, Mirage Js, Context API, hooks, axios e muito mais. O app tem um sistema de cadastro de entradas e saidas consegue visualizar a listagem desses cadastros.
 
 
-Este é um aplicativo front-end desenvolvido durante o curso "Ignite" fornecido pela Rocketseat em react que usa conceitos como Styled Components, Mirage Js, Context API, hooks, axios e muito mais. O app tem um sistema de cadastro de entradas e saidas consegue visualizar a listagem desses cadastros.
+This is a front-end application developed during the "Ignite" course provided by Rocketseat in react that uses concepts like Styled Components, Mirage Js, Context API, hooks, axios and more. The app has a system for registering entries and exits can view the listing of these entries.
 
 
 
