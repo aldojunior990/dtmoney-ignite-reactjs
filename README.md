@@ -13,7 +13,7 @@ This is a front-end application developed during the "Ignite" course provided by
 
 
 <h1 align="center" display="flex">
-   <img width="=100%" src=".github/tela.gif">
+   <img  src=".github/tela.gif">
 </h1>
 
 ## :computer: Tecnologias - Technologies 
