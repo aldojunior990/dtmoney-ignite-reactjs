@@ -5,10 +5,9 @@
 
 ## Sobre o projeto - About the project
 
-Este é um aplicativo front-end desenvolvido durante o curso "Ignite" fornecido pela Rocketseat em react que usa conceitos como Styled Components, Mirage Js, Context API, hooks, axios e muito mais. O app tem um sistema de cadastro de entradas e saidas e consegue visualizar a listagem desses cadastros. O app ainda não funciona em produção (web) só em desenvolvimento (localHost).
+Este é um aplicativo front-end desenvolvido durante o curso "Ignite" fornecido pela Rocketseat em react que usa conceitos como Styled Components, Mirage Js, Context API, hooks, axios e muito mais. O app funciona como uma calculadora financeira pessoal, onde o usuario consegue ter controle de seus ganhos e gastos.
 
-
-This is a front-end application developed during the "Ignite" course provided by Rocketseat in react that uses concepts like Styled Components, Mirage Js, Context API, hooks, axios and more. The app has a system for registering entries and exits and can view the listing of these entries. The app still doesn't work in production (web) only in development (localHost).
+This is a front-end application developed during the "Ignite" course provided by Rocketseat in react that uses concepts like Styled Components, Mirage Js, Context API, hooks, axios and more. The app works as a personal financial calculator, where the user can keep track of their earnings and expenses.
 
 
 
@@ -47,10 +46,6 @@ O aplicativo estará disponível em seu navegador no endereço http://localhost:
 <br>
 The app will be available in your browser at the address http://localhost:3000.
 
-
-O aplicativo também está disponível na web em produção https://dtmoney-ignite-reactjs.vercel.app/
-<br>
-The app is also available on the web in production https://dtmoney-ignite-reactjs.vercel.app/
 
 <br>
 
