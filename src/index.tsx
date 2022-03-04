@@ -20,7 +20,7 @@ createServer({
   },
   routes() {
 
-    this.namespace = 'https://dtmoney-ignite-reactjs.vercel.app'
+    this.namespace = 'api'
 
 
     this.get('/transactions', () => {
