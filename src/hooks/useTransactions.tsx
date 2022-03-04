@@ -41,7 +41,7 @@ export function TransactionsProvider({ children }: TransactionsProviderProps) {
   }, []);
 
   async function createTransaction(transactionInput: TransactionInput) {
-    const response = await api.post("https://dtmoney-ignite-reactjs.vercel.app//transactions", {
+    const response = await api.post("/transactions", {
       ...transactionInput,
       createdAt: new Date(),
     });
