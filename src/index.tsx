@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {App} from './App'
-import { createServer, Model } from 'miragejs' 
+import { App } from './App'
+import { createServer, Model } from 'miragejs'
 
 
 createServer({
@@ -9,27 +9,27 @@ createServer({
   models: {
 
     transaction: Model,
-    
+
   },
-  seeds(server){
+  seeds(server) {
     server.db.loadData({
-      transactions:[
-        
+      transactions: [
+
       ]
     })
   },
-  routes(){
-    
-    this.namespace = 'api'
+  routes() {
+
+    this.namespace = 'api/https://dtmoney-ignite-reactjs.vercel.app/'
 
 
-    this.get('/transactions', () => { 
+    this.get('/transactions', () => {
       return this.schema.all('transaction')
-      
+
     })
 
 
-    this.post('/transactions', (schema, request) =>{
+    this.post('/transactions', (schema, request) => {
 
       const data = JSON.parse(request.requestBody)
 
