@@ -15,6 +15,10 @@ This is a front-end application developed during the "Ignite" course provided by
    <img height="500px" src=".github/tela.gif">
 </h1>
 
+<h1 align="center" display="flex">
+   <img height="500px" src=".github/img2.png">
+</h1>
+
 ## :computer: Tecnologias - Technologies 
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
